@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameArea">
+        <div id="gameBoard">
+            <table id="board" border="1">
+                <tr>
+                    <td>
+                        <button class="cell" id="00" onclick="PlayerMove(0, 0)" disabled></button>
+                    </td>
+                    <td>
+                        <button class="cell" id="01" onclick="PlayerMove(0, 1)" disabled></button>
+                    </td>
+                    <td>
+                        <button class="cell" id="02" onclick="PlayerMove(0, 2)" disabled></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="cell" id="10" onclick="PlayerMove(1, 0)" disabled></button>
+                    </td>
+                    <td>
+                        <button class="cell" id="11" onclick="PlayerMove(1, 1)" disabled></button>
+                    </td>
+                    <td>
+                        <button class="cell" id="12" onclick="PlayerMove(1, 2)" disabled></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="cell" id="20" onclick="PlayerMove(2, 0)" disabled></button>
+                    </td>
+                    <td>
+                        <button class="cell" id="21" onclick="PlayerMove(2, 1)" disabled></button>
+                    </td>
+                    <td>
+                        <button class="cell" id="22" onclick="PlayerMove(2, 2)" disabled></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="game-settings">
+            <div id="gameModeLbl">Game mode</div>
+            <button id="gameModeBtn" onclick="ChooseGameMode()">1 player</button>
+            <div id="choosePieceLbl">Choose piece</div>
+            <div id="youContainer">
+                <div id="youPieceLbl">You</div>
+                <button id="youPieceBtn" onclick="ChoosePiece()">X</button>
+            </div>
+            <div id="oppContainer">
+                <div id="oppPieceLbl">Opponent</div>
+                <button id="oppPieceBtn" onclick="ChoosePiece()">O</button>
+            </div>
+            <div id="startsFirstLbl">Starts first</div>
+            <button id="startsFirstBtn" onclick="ChooseStartsFirst()">X</button>
+            <div id="difficultyLbl">Difficulty</div>
+            <button id="difficultyBtn" onclick="ChooseDifficulty()">Easy</button>
+            <button id="startBtn" onclick="Start()">START</button>
+            <button id="restartBtn" onclick="Restart()">RESTART</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

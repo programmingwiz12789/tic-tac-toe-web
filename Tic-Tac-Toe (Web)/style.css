@@ -1,0 +1,212 @@
+#gameArea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: darkred;
+}
+
+#gameBoard {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 40%;
+    top: 30%;
+    left: 40%;
+}
+
+#board {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#board tr td {
+    position: relative;
+    width: 33%;
+    height: 33%;
+    background-color: white;
+}
+
+.cell {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 350%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-color: transparent;
+}
+
+#game-settings {
+    position: relative;
+    float: right;
+    width: 13%;
+    height: 40%;
+    top: 7%;
+    right: 20%;
+}
+
+#gameModeLbl {
+    position: relative;
+    width: 100%;
+    height: 1%;
+    font-size: 170%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#gameModeBtn {
+    position: relative;
+    width: 83%;
+    height: 20%;
+    top: 12%;
+    left: 10%;
+    font-size: 175%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#choosePieceLbl {
+    position: relative;
+    width: 100%;
+    height: 1%;
+    font-size: 170%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    top: 12%;
+}
+
+#youContainer {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 30%;
+    top: 24%;
+}
+
+#youPieceLbl {
+    position: relative;
+    width: 100%;
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#youPieceBtn {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    left: 8%;
+    font-size: 350%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#oppContainer {
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 30%;
+    top: 24%;
+}
+
+#oppPieceLbl {
+    position: relative;
+    width: 100%;
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#oppPieceBtn {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    left: 10%;
+    font-size: 350%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#startsFirstLbl {
+    position: relative;
+    width: 100%;
+    height: 1%;
+    font-size: 170%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    top: 32%;
+}
+
+#startsFirstBtn {
+    position: relative;
+    width: 40%;
+    height: 30%;
+    top: 45%;
+    left: 30%;
+    font-size: 350%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#difficultyLbl {
+    position: relative;
+    width: 100%;
+    height: 1%;
+    font-size: 170%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    top: 45%;
+}
+
+#difficultyBtn {
+    position: relative;
+    width: 83%;
+    height: 20%;
+    top: 59%;
+    left: 10%;
+    font-size: 150%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#startBtn {
+    position: relative;
+    width: 83%;
+    height: 20%;
+    top: 65%;
+    left: 10%;
+    font-size: 200%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#restartBtn {
+    position: relative;
+    width: 83%;
+    height: 20%;
+    top: 67%;
+    left: 10%;
+    font-size: 160%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
